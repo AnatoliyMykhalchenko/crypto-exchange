@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="container__wrapper">
+			<header class="header">
+
+				<a href="#"><img src="./images/cryptoexch.svg" alt="logo"></a>
+
+				<nav>
+					<ul class="header__menu">
+						<li><a href="#">Обменять</a></li>
+						<li><a href="#">Резервы</a></li>
+						<li><a href="#">Как мы работаем</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Документы</a></li>
+						<li class="active"><a href="#">Личный кабинет</a></li>
+					</ul>
+				</nav>
+
+			</header>
+
+			<header class="header-mobile">
+				<div class="wrapper">
+
+					<a href="#"><img src="./images/cryptoexch.svg" alt="logo"></a>
+
+					<div class="burger">
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+
+				</div>
+
+				<ul class="header-mobile__menu">
+					<li><a href="#">Обменять</a></li>
+					<li><a href="#">Резервы</a></li>
+					<li><a href="#">Как мы работаем</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Документы</a></li>
+					<li class="active"><a href="#">Личный кабинет</a></li>
+				</ul>
+
+			</header>
+			<main>
+				<div class="main">
+
+					<div class="main__instruction">
+						<h1>Меняйте валюты как вам удобно!</h1>
+						<p>Просто выберите интересующую вас валюту из перечня доступых, и мы обменяем ее по самому
+							выгодному
+							курсу.</p>
+						<img src="./images/trustpilot.png" alt="">
+					</div>
+
+					<div class="main__exchange">
+
+						<h2>Выберете одно из направлений обмена</h2>
+						<div class="main__exchange__courses">
+
+							<div class="main__exchange__course_currencies">
+								<img src="./images/bitcoin.png" alt="">
+								<img src="./images/arrow-right.png" class="arrow" alt="">
+								<img src="./images/card.png" alt="">
+							</div>
+							<div class="main__exchange__course_currencies">
+								<img src="./images/bitcoin.png" alt="">
+								<img src="./images/arrow-right.png" alt="">
+								<img src="./images/etherium.png" alt="">
+							</div>
+							<div class="main__exchange__course_currencies">
+								<img src="./images/bitcoin.png" alt="">
+								<img src="./images/arrow-right.png" class="arrow" alt="">
+								<img src="./images/advcash.png" alt="">
+							</div>
+
+						</div>
+
+						<form action="#" class="form">
+
+							<div class="form-block">
+
+								<div class="left">
+									<span>Вы отправляете</span>
+									<input type="text"
+										onkeypress="return (event.charCode >= 48 && event.charCode <= 57 && /^\d{0,6}$/.test(this.value));"
+										placeholder="Введите сумму">
+								</div>
+
+								<div class="right">
+									<img src="./images/card.png" alt="">
+									<span>Visa/Mastercard UAH</span>
+									<div class="arrow-bottom"></div>
+								</div>
+
+								<ul class="currency-list">
+								</ul>
+
+
+							</div>
+
+							<div class="comission">Комиссия за обмен <b></b></div>
+
+							<div class="form-block">
+
+								<div class="left">
+									<span>Вы получаете</span>
+									<div>Сумма</div>
+								</div>
+
+								<div class="right">
+									<img src="./images/etherium.png" alt="">
+									<span>Etherium ETH</span>
+									<div class="arrow-bottom"></div>
+								</div>
+
+							</div>
+
+							<div class="checkbox-wrapper">
+								<input type="checkbox" class="checkbox" id="checkbox" />
+								<label for="checkbox">Я согласен с правилами сервиса</label>
+							</div>
+
+							<div class="button_wrapper">
+								<button class="button">Обменять</button>
+							</div>
+
+						</form>
+
+					</div>
+
+				</div>
+			</main>
+		</div>
+	</div>
+
+	<script src="./script.js"></script>
+</body>
+
+</html>

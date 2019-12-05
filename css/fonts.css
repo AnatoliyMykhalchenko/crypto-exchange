@@ -1,0 +1,26 @@
+@font-face{
+	font-family: 'Gotham';
+	src: url('../fonts/GothaProBol.otf');
+	src: url('../fonts/GothaProBol.otf?iefix') format('otf'),
+	url('../fonts/GothaProBol.otf');
+	font-weight: bold;
+	font-style: normal;
+	}
+
+@font-face{
+	font-family: 'Gotham';
+	src: url('../fonts/GothaProMed.otf');	
+	src: url('../fonts/GothaProMed.otf?iefix') format('otf'),
+	url('../fonts/GothaProMed.otf');	
+	font-weight: normal;
+	font-style: normal;
+	}
+
+@font-face{
+		font-family: 'Roboto';
+		src: url('../fonts/Roboto-Regular.ttf');	
+		src: url('../fonts/Roboto-Regular.ttf?iefix') format('ttf'),
+		url('../fonts/Roboto-Regular.ttf');	
+		font-weight: normal;
+		font-style: normal;
+	}
